@@ -1,0 +1,11 @@
+--users--
+id: int
+username: str
+email: str
+password_hash: str
+
+--images--
+id: int
+user_id: foreign_key -> users.id
+filename: str
+liked: bool
