@@ -141,3 +141,4 @@ cython_debug/
 # Project files
 dump.rdb
 images.db
+.idea/
